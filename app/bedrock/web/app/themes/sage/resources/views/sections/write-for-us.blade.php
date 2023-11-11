@@ -7,21 +7,14 @@
   <div class="bg-gray-100 p-5 rounded-5 mt-11 shadow-2xl">
     <form action="action_page.php">
 
-      <label for="fname">First Name</label>
+      <label for="fname">Your Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name.." class="w-full p-2 border border-gray-300 rounded-md my-1">
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="w-full p-2 border border-gray-300 rounded-md my-1">
+      <label for="fname">Subject</label>
+      <input type="text" id="fname" name="firstname" placeholder="Subject" class="w-full p-2 border border-gray-300 rounded-md my-1">
 
-      <label for="country">Country</label>
-      <select id="country" name="country" class="w-full p-2 border border-gray-300 rounded-md my-1">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" class="w-full p-2 border border-gray-300 rounded-md my-1 resize-y"></textarea>
+      <label for="subject">Description</label>
+      <textarea id="subject" name="subject" placeholder="Summary of Contribution.." style="height:200px" class="w-full p-2 border border-gray-300 rounded-md my-1 resize-y"></textarea>
 
       <input type="submit" value="Submit" class="bg-cyan-600 text-white p-2 rounded-md cursor-pointer">
 
