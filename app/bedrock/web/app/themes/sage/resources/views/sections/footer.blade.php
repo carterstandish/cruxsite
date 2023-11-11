@@ -92,13 +92,13 @@
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="">
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="{{ get_permalink(get_page_by_path('Write For Us')) }}">
               Write for Us
             </a>
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="{{ get_permalink(get_page_by_path('blog')) }}">
               Blog
             </a>
           </li>
