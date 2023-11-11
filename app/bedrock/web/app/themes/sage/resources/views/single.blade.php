@@ -9,7 +9,7 @@
       <div class="text-6xl font-bold">
         {{the_title()}}
       </div>
-      <div class="mt-2 text-cyan-800">
+      <div class="pl-1 mt-2 text-cyan-800">
         <p> By: {{get_the_author()}} on {{the_date()}}</p>
       </div>
     </div>
