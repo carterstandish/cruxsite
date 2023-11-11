@@ -7,7 +7,7 @@
         $recent_posts = new WP_Query(array('posts_per_page' => 3));
     @endphp
     @while($recent_posts->have_posts()) @php($recent_posts->the_post())
-      <div class="flex flex-col shadow-xl rounded-md p-5">
+      <div class="w-1/3 flex flex-col shadow-xl rounded-md p-5">
         <div class="thumbnail">
             <a  href="{{ get_the_permalink() }}">
                 <img class="rounded-md float-left w-100 h-[250px] object-cover" {!! get_the_post_thumbnail() !!}
