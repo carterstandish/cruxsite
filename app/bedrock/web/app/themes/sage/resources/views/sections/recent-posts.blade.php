@@ -8,7 +8,7 @@
             <div class="flex flex-col shadow-xl rounded-md p-5">
                 <div class="thumbnail">
                     <a  href="{{ get_the_permalink() }}">
-                        <img class="rounded-md" {!! get_the_post_thumbnail() !!}
+                        <img class="rounded-md float-left w-100 h-[250px] object-cover" {!! get_the_post_thumbnail() !!}
                     </a>
                 </div>
                 <div class="recent-posts-title-box">
