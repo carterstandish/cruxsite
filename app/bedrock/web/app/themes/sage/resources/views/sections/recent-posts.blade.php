@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-  <div class="flex justify-center">
+  <div class="flex justify-center mb-4">
       <h2 class="text-3xl font-bold"><a href="{{ url('/page') }}">LATEST ARTICLES</a></h2>
   </div>
   <div class="flex gap-[25px] grow mx-[25px] ">
@@ -10,7 +10,7 @@
       <div class="w-1/3 flex flex-col shadow-xl rounded-md p-5">
         <div class="thumbnail">
             <a  href="{{ get_the_permalink() }}">
-                <img class="rounded-md float-left w-100 h-[250px] object-cover" {!! get_the_post_thumbnail() !!}
+                <img class="opacity-100 transition-[0.3s] duration-[ease-in-out] hover:opacity-80 rounded-md float-left w-100 h-[250px] object-cover" {!! get_the_post_thumbnail() !!}
             </a>
         </div>
         <div class="recent-posts-title-box">
