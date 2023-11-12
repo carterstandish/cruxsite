@@ -14,7 +14,8 @@
             </a>
         </div>
         <div class="recent-posts-title-box">
-            <h1 class="font-bold my-2"><a href="{{ the_permalink() }}"> {!! the_title() !!} </a></h1>
+            <h1 class="font-bold my-2"><a href="{{ the_permalink() }}"> {!! get_the_title() !!} </a></h1>
+
         </div>
         <div class="recent-posts-content-box"
             <p class="text-gray-700">
