@@ -4,9 +4,8 @@
 
 @include('sections.header')
 
-  <main id="main" class="main">
-    @yield('landing-page')
-  </main>
+<main id="main" class="main">
+  @yield('landing-page')
 
   @hasSection('sidebar')
     <aside class="sidebar">
@@ -14,8 +13,9 @@
     </aside>
   @endif
 
-  <div class="single-post">
+  <div class="content">
     @yield('content')
   </div>
+</main>
 
 @include('sections.footer')

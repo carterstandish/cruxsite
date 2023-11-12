@@ -92,7 +92,7 @@
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="{{ home_url('write-for-us') }}">
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="/write-for-us/">
               Write for Us
             </a>
           </li>

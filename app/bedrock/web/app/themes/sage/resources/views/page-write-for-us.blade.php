@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@include('sections.header')
 
 <div class="flex justify-center items-center flex-col mt-28">
   <div class="w-1/2 ">
@@ -25,3 +25,5 @@
     </form>
   </div>
 </div>
+
+@include('sections.footer')
