@@ -3,7 +3,7 @@
 <div class="flex justify-center items-center flex-col mt-28">
   <div class="w-1/2 ">
     <h2 class="text-3xl font-bold text-center text-[2rem]">WRITE FOR CRUX</h2>
-    <p class="my-2 text-center">Crux is built by writers like you. Write one, two, or as many articles as you'd like. Build brand awareness or flex your achievements.</p>
+    <p class="my-2 text-center">Crux is built by writers like you. We invite you to share your insights and experiences with our global audience. As a contributor to our blog, you have the opportunity to showcase your expertise, elevate your personal brand, and connect with a community that shares your enthusiasm for athletic achievement.</p>
   </div>
 
 
